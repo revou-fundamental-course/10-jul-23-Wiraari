@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Silkscreen&display=swap');
+
+*,
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    gap: 10px;
+}
+
+.wrapper, .conten {
+    position: relative;
+    /* background: #827878; */
+    width: 600px;
+    height: 750px;
+    padding: 15px;
+    margin: 15px;
+    text-align: justify;
+    font-size: 14px;
+}
+h3, p {
+    padding-bottom:20px ;
+}
+.wrapper .card {
+    padding: 15px;
+    height: 320px;
+    background: #f3f1f1;
+    margin-bottom: 10px;
+
+}
+.card .jk {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.card .jk  {
+    line-height: 1.6;
+}
+.card .label2 {
+    position: relative;
+    font-weight: bold;
+}
+.card .input-txt {
+    position: relative;
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+}
+
+.card .input-txt input {
+    /* float: right; */
+    height: 30px;
+    padding-left: 40px;
+    letter-spacing: 0.075em;
+    font-size: 13px;
+    outline: none;
+    width: 92%;
+    border: 1px solid #dbd7d7;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: .5s ease;
+}
+.card .input-txt input:focus,
+.card .input-txt input:active {
+    border: 1px solid rgb(18, 195, 244);
+}
+.card .input-txt i {
+   position: absolute;
+   padding: 7px;
+   font-size: 20px;
+}
+.wrapper .btn {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    gap: 10px;
+}
+#btnSubmit {
+    width: 100px;
+    font-size: 14px;
+    height: 34px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    background: #43be0a;
+    cursor: pointer;
+}
+
+#btnReset {
+    width: 50px;
+    font-size: 14px;
+    height: 34px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fffdfd;
+    background: #6b6967;
+    cursor: pointer;
+}
+#btnSubmit:hover,
+#btnReset:hover {
+    opacity: 0.8;
+}
+
+.wrapper span {
+    font-size: 20px;
+    font-weight: bold;
+}
+.wrapper .ul-txt {
+    position: relative;
+    left: 15px;
+    margin-bottom: 20px;
+}
+
+/* HASIL */
+
+.conten .input-result{
+    width: 100%;
+    height: 150px;
+    background: #f3f1f1;
+    text-align: center;
+}
+/* font description & Category */
+#result1 .resultBMI {
+    font-size: 30px;
+}
+.description-small {
+    font-size: 12px;
+}
+.description-large {
+    font-size: 17px;
+}
+.conten .input-result2 {
+    padding: 5px 0;
+    width: 100%;
+    height: 20px;
+}
+.conten .input-result3 {
+
+    width: 100%;
+    height: 80px;
+}
+
+.conten .btn-3{
+    position: relative;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.conten .btn-3 button {
+    background: #43be0a;
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+.conten .result4 {
+    width: 100%;
+    height: 120px;
+    background: #f3f1f1;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* opacity all button (conten) */
+.conten .input-result button:hover, .conten .btn-3 button:hover,
+.conten .result4 button:hover {
+    opacity: 0.8;
+}
+
+/* conten last */
+.conten .link-icons {
+
+    position: relative;
+    height: 120px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.conten .link-icons h3 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.conten .link-icons a img[src="img/Google_Play-Badge-Logo.wine.svg"]
+{
+    position: absolute;
+    width: 170px;
+    top: 6px;
+    left: 150px;
+    cursor: pointer;
+}
+.conten .link-icons img[src="img/App_Store_(iOS)-Badge-Logo.wine.svg"]
+{
+    position: absolute;
+    width: 160px;
+    top: 10px;
+    right: 150px;
+}
+
+/* footer */
+footer {
+    background: black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h3 {
+    position: relative;
+    top: 12px;
+    color: wheat;
+    font-size: 12px;
+}
